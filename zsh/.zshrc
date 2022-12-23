@@ -131,7 +131,7 @@ alias update_prezto='cd $ZPREZTODIR && git pull && git submodule sync --recursiv
 
 alias rm_DS_Stores='find . -name ".DS_Store" -delete'
 
-#alias pulseaudio-ctl='/usr/local/bin/pulseaudio-ctl_local'
+##alias pulseaudio-ctl='/usr/local/bin/pulseaudio-ctl_local'
 
 alias music_mpv='mpv --no-video'
 alias gui_mpv='mpv --player-operation-mode=pseudo-gui'
