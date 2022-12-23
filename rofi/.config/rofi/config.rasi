@@ -1,0 +1,15 @@
+configuration {
+    modi:		     [window,run,drun,ssh];
+    font:                    "Roboto Mono Medium for Powerline 9";
+    fixed-num-lines:         false;
+    show-icons:              false;
+    sidebar-mode:            true;
+    scroll-method:           0;
+    click-to-exit:           true;
+    combi-hide-mode-prefix:  false;
+    location:                0;
+}
+
+@theme "/home/srsantos/.config/rofi/glue_pro_blue_santos.rasi"
+
+//@theme "/home/srsantos/.config/rofi/sidebar_santos.rasi"
