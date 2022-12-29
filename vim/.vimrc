@@ -163,6 +163,7 @@ set list
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:.
 
 set nowrap
+set list listchars=tab:›\ ,extends:>,precedes:<,nbsp:·,trail:·
 set autoindent
 set shiftwidth=4
 set expandtab
