@@ -1,0 +1,10 @@
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+cd .zprezto
+git remote rename origin upstream
+git remote add origin git@github.com:halocaridina/zprezto_linux.git
+git remote -v
+git push origin	master (this will get the base repo in place)
+git add *
+git commit -m 'MESSAGE'
+git push origin master (to update base with local/previous changes)
+git pull upstream master && git push origin master (Pull in patches from upstream)
