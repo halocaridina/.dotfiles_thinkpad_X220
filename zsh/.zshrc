@@ -127,6 +127,7 @@ alias glances='glances --hide-kernel-threads -1'
 alias open='exo-open'
 alias clear='clear -x'
 
+alias sync_prezto='cd $ZPREZTODIR && git pull upstream master && git push origin master && cd -'
 alias update_prezto='cd $ZPREZTODIR && git pull && git submodule sync --recursive && git submodule update --init --recursive && cd -'
 
 alias rm_DS_Stores='find . -name ".DS_Store" -delete'
