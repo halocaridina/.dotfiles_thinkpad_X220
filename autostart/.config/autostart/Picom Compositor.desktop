@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Picom Compositor
+Comment=X compositor for desktop effects
+Exec=/usr/bin/picom --config /home/srsantos/.config/picom_compton/compton.conf
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false
+Terminal=false
+Hidden=true
+
