@@ -1,0 +1,23 @@
+[Added Associations]
+text/plain=sublime_text.desktop;
+application/xml=sublime_text.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+text/x-python=sublime_text.desktop;
+image/png=ristretto.desktop;org.xfce.ristretto.desktop;
+audio/mpeg=pragha.desktop;
+image/jpeg=org.xfce.ristretto.desktop;ristretto.desktop;
+x-scheme-handler/mailto=xfce4-mail-reader.desktop;
+application/pdf=evince.desktop;org.gnome.Evince.desktop;
+text/html=sublime_text.desktop;
+application/vnd.iccprofile=xfce4-color-settings.desktop;
+audio/mp4=pragha.desktop;
+
+[Default Applications]
+audio/mpeg=pragha.desktop
+image/png=org.xfce.ristretto.desktop
+application/pdf=org.gnome.Evince.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+x-scheme-handler/mailto=xfce4-mail-reader.desktop
+audio/mp4=pragha.desktop
