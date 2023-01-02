@@ -93,6 +93,7 @@
         <value type="string" value="kalu"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “coral reef” active: coral reef (81%)"/>
         <value type="string" value="wi-fi network connection “coral reef” active: coral reef (85%)"/>
         <value type="string" value="wi-fi network connection “coral reef” active: coral reef (82%)"/>
         <value type="string" value="wi-fi network connection “coral reef” active: coral reef (83%)"/>
