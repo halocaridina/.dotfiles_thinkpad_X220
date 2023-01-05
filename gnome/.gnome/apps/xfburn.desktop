@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Xfburn
+GenericName=Disk Burning
+Comment=CD and DVD burning application
+Icon=stock_xfburn
+TryExec=xfburn
+Exec=xfburn
+Actions=BurnImage;
+MimeType=application/x-cd-image;
+Categories=Archiving;GTK;Utility;X-XFCE;
+StartupNotify=true
+
+[Desktop Action BurnImage]
+Name=Burn Image (xfburn)
+Exec=xfburn -i %f
+OnlyShowIn=Old;

@@ -1,4 +1,4 @@
- <?xml version="1.0"?>
+<?xml version="1.0"?>
   <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
   <fontconfig>
       <!-- Default font -->
@@ -30,7 +30,7 @@
       <alias>
         <family>sans-serif</family>
         <prefer>
-          <family>Roboto</family>
+          <family>Roboto Condensed</family>
           <family>Droid Sans</family>
           <family>Noto Sans</family>
         </prefer>
@@ -57,7 +57,7 @@
       </match>
       <match target="font" >
         <edit mode="assign" name="autohint" >
-          <bool>false</bool>
+          <bool>true</bool>
         </edit>
       </match>
       <match target="font">
@@ -77,7 +77,7 @@
       </match>
       <match target="font">
         <edit mode="assign" name="lcdfilter">
-          <const>lcddefault</const>
+          <const>lcdlight</const>
         </edit>
       </match>
 

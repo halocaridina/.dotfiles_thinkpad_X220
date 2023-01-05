@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Zathura
+Comment=A minimalistic document viewer
+Icon=applications-other
+Exec=zathura %U
+Actions=
+MimeType=application/pdf;
+Categories=Office;Viewer;
+OnlyShowIn=Old;

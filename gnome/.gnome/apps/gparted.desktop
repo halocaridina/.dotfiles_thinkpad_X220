@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=GParted Partition Editor
+GenericName=Partition Editor
+Comment=Create, reorganize, and delete partitions
+Icon=gparted
+Exec=/usr/bin/gparted %f
+Actions=
+Categories=Filesystem;GNOME;System;X-Xfce-Toplevel;
+Keywords=Partition;
+StartupNotify=true
+OnlyShowIn=Old;

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Zathura
+Comment=A minimalistic document viewer
+Icon=org.pwmt.zathura
+Exec=zathura %U
+Actions=
+Categories=Graphics;
+Keywords=PDF;PS;PostScript;DjVU;document;presentation;viewer;
+OnlyShowIn=Old;

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Htop
+GenericName=Process Viewer
+Comment=Show System Processes
+Icon=htop
+Exec=htop
+Terminal=true
+Actions=
+Categories=ConsoleOnly;System;
+Keywords=system;process;task;
+OnlyShowIn=Old;

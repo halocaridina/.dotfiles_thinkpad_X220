@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Clipman
+NoDisplay=true
+Comment=Clipboard manager
+Icon=xfce4-clipman-plugin
+OnlyShowIn=XFCE;GNOME;
+TryExec=xfce4-clipman
+Exec=xfce4-clipman
+Actions=
+Categories=GTK;TrayIcon;Utility;
+OnlyShowIn=Old;

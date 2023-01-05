@@ -226,7 +226,7 @@
     <property name="plugin-4" type="string" value="notification-plugin"/>
     <property name="plugin-14" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1086055;firefox.instance333074;firefox.instance414560;gogglesmm;mpv;playerctld;pragha"/>
+      <property name="mpris-players" type="string" value="firefox.instance1086055;firefox.instance117593;firefox.instance333074;firefox.instance414560;gogglesmm;mpv;playerctld;pragha"/>
       <property name="enable-wnck" type="bool" value="false"/>
       <property name="enable-multimedia-keys" type="bool" value="false"/>
       <property name="enable-mpris" type="bool" value="true"/>

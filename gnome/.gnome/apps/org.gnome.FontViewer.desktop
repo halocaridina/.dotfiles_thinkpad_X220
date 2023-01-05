@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Font Viewer
+GenericName=Font Viewer
+NoDisplay=true
+Comment=Full featured font file preview application
+Icon=org.gnome.FontViewer
+DBusActivatable=true
+Exec=/usr/lib/font-manager/font-viewer %u
+Actions=
+MimeType=font/ttf;font/ttc;font/otf;application/x-font-ttf;application/x-font-otf;
+Categories=GNOME;GTK;Utility;
+Keywords=Graphics;Viewer;GNOME;GTK;Publishing;
+StartupNotify=true
+OnlyShowIn=Old;

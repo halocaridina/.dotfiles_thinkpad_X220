@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=LZDoom
+Comment=GZDoom fork for legacy systems
+Icon=/usr/share/pixmaps/lzdoom.png
+Exec=lzdoom %F
+Actions=
+Categories=Game;
+OnlyShowIn=Old;

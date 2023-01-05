@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=XColor
+GenericName=Color Picker
+Comment=Select colors visible anywhere on the screen to get their RGB representation
+Icon=xcolor
+TryExec=xcolor
+Exec=xcolor -s
+Actions=
+Categories=Graphics;
+Keywords=color;picker;select;design;
+OnlyShowIn=Old;

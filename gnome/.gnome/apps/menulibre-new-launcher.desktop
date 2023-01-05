@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Outlook WebMail App
+Comment=Check email in Outlook on the Web
+Icon=ms-outlook
+Exec=/usr/bin/chromium https://outlook.office365.com/mail/inbox
+Actions=
+Categories=Network;
+OnlyShowIn=Old;

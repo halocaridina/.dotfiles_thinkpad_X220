@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=System Profiler and Benchmark
+Comment=Displays system information
+Icon=hardinfo
+Exec=/usr/bin/hardinfo -a
+Actions=
+Categories=Settings;System;
+Keywords=linux;kernel;system;hardware;cpu;processor;capabilities;frequency;memory;ram;board;resources;sensors;devices;usb;pci;display;network;benchmark;test;
+StartupNotify=true
+OnlyShowIn=Old;
