@@ -94,11 +94,13 @@
   </property>
   <property name="desktop-menu" type="empty">
     <property name="show" type="bool" value="false"/>
-    <property name="show-icons" type="bool" value="true"/>
+    <property name="show-icons" type="bool" value="false"/>
+    <property name="show-delete" type="bool" value="true"/>
   </property>
   <property name="windowlist-menu" type="empty">
     <property name="show-submenus" type="bool" value="false"/>
     <property name="show-add-remove-workspaces" type="bool" value="true"/>
     <property name="show-sticky-once" type="bool" value="false"/>
+    <property name="show-icons" type="bool" value="true"/>
   </property>
 </channel>

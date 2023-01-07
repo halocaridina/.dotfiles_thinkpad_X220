@@ -19,37 +19,77 @@ Xft.dpi:        96
 Xft.antialias:  true
 Xft.hinting:    true
 Xft.rgba:       rgb
-Xft.hintstyle:  hintfull
+Xft.hintstyle:  hintslight
 
-! Rofi settings
+! Xterm settings
 
-! rofi.separator-style: dash
-! rofi.font: Roboto Mono Medium for Powerline 10
-! rofi.bc: #396EB4
-! rofi.bw: 0
-! rofi.loc: 0
-! rofi.padding: 200
-! rofi.fixed-num-lines: false
-! rofi.hmode: false
-! rofi.terminal: xfce4-terminal
-! rofi.ssh-command: xfce4-terminal -e '{ssh-client} {host}' --class=ssh
-! rofi.ssh-set-title: true
-! rofi.key: F12
-! rofi.rkey: mod1+F2
-! rofi.skey: mod1+F3
-! rofi.hide-scrollbar: true
-! rofi.sidebar-mode: true
-! rofi.fullscreen: true
-! rofi.switchers: window,drun,ssh
+xterm*termName: xterm-256color
+xterm*locale: true
+xterm*loginshell: true
+xterm*savelines: 16384
 
-xscreensaver.newLoginCommand:
-xscreensaver.Dialog.headingFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-iso10646-*
-xscreensaver.Dialog.bodyFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-iso10646-*
-xscreensaver.Dialog.labelFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-iso10646-*
-xscreensaver.Dialog.unameFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-iso10646-*
-xscreensaver.Dialog.buttonFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-iso10646-*
-xscreensaver.Dialog.dateFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-iso10646-*
-xscreensaver.passwd.passwdFont: -*-terminus-medium-*-*-*-12-*-*-*-*-*-iso10646-*
-xscreensaver.font: -*-terminus-medium-*-*-*-12-*-*-*-*-*-iso10646-*
-xscreensaver.passwdTimeout: 0:00:01
+xterm*rightScrollBar: false
+xterm*ScrollBar: false
+xterm*VT100.geometry: 80x50
+
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*on3Clicks: regex ([[:alpha:]]+://)?([[:alnum:]!#+,./=?@_~-]|(%[[:xdigit:]][[:xdigit:]]))+
+
+xterm*eightBitInput: false
+xterm*metaSendsEscape: true
+
+xterm*backarrowKey: false
+xterm*ttyModes: erase ^?
+xterm*scrollTtyOutput: false
+
+xterm*faceName: FiraCode Nerd Font:Medium:antialias=false
+xterm*allowBoldFonts: false
+xterm*faceSize:  9
+xterm*faceSize1: 7
+xterm*faceSize2: 8
+xterm*faceSize3: 9
+xterm*faceSize4: 11
+xterm*faceSize5: 12
+xterm*faceSize6: 14
+
+xterm*visualbell: true
+xterm*bellIsUrgent: true
+
+xterm*cursorColor: rgb:ba/bd/b6
+xterm*cursorBlink: true
+
+xterm*foreground:  rgb:ba/bd/b6
+xterm*background:  rgb:00/00/00
+
+! black/dark grey
+xterm*color0:  rgb:2e/34/36
+xterm*color8:  rgb:55/57/53
+
+! red/ bright red
+xterm*color1:  rgb:cc/00/00
+xterm*color9:  rgb:ef/29/29
+
+! green/bright green
+xterm*color2:  rgb:4e/9a/06
+xterm*color10: rgb:8a/e2/34
+
+! yellow/bright yellow
+xterm*color3:  rgb:c4/a0/00
+xterm*color11: rgb:fc/e9/4f
+
+! blue/bright blue
+xterm*color4:  rgb:17/93/d1
+xterm*color12: rgb:17/93/d1
+
+! magenta/bright magenta
+xterm*color5:  rgb:75/50/7b
+xterm*color13: rgb:ad/7f/a8
+
+! cyan/bright cyan
+xterm*color6:  rgb:06/98/9a
+xterm*color14: rgb:34/e2/e2
+
+! light grey/white
+xterm*color7:  rgb:d3/d7/cf
+xterm*color15: rgb:ee/ee/ec
 

@@ -111,7 +111,7 @@ hc pad $monitor $panel_height
             esac
             case ${i:1} in
                 '1')
-                    icon="^fn(Droid Sans Japanese:size=11)一^fn()"
+                    icon="^fn(Droid Sans Regular:size=11)一^fn()"
                     ;;
                 '2')
                     icon="^fn(Droid Sans Japanese:size=11)二^fn()"
